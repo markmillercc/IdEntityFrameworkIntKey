@@ -22,20 +22,20 @@ namespace IdEntityFrameworkIntKey.Models
     {
     }
 
-    public class ApplicationUserStore : UserStore<ApplicationUser, ApplicationRole,
-        int, ApplicationUserLogin, ApplicationUserRole, ApplicationUserClaim>
-    {
-        public ApplicationUserStore(ApplicationDbContext context)
-            : base(context)
-        {
-        }
-    }
+    //public class ApplicationUserStore : UserStore<ApplicationUser, ApplicationRole,
+    //    int, ApplicationUserLogin, ApplicationUserRole, ApplicationUserClaim>
+    //{
+    //    public ApplicationUserStore(ApplicationDbContext context)
+    //        : base(context)
+    //    {
+    //    }
+    //}
 
-    public class ApplicationRoleStore : RoleStore<ApplicationRole, int, ApplicationUserRole>
-    {
-        public ApplicationRoleStore(ApplicationDbContext context)
-            : base(context)
-        {
-        }
-    }
+    //public class ApplicationRoleStore : RoleStore<ApplicationRole, int, ApplicationUserRole>
+    //{
+    //    public ApplicationRoleStore(ApplicationDbContext context)
+    //        : base(context)
+    //    {
+    //    }
+    //}
 }
